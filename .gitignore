@@ -20,5 +20,7 @@
 # Go workspace file
 go.work
 
-sample.png
-sample.mp4
+*.png
+*.mp4
+*.ts
+*.m3u8
