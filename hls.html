@@ -15,7 +15,7 @@
     var video = document.getElementById('video');
     if(Hls.isSupported()) {
         var hls = new Hls();
-        hls.loadSource('https://b-hls-12.doppiocdn.net/hls/91345854/91345854_480p.m3u8');
+        hls.loadSource('sample.m3u8');
         hls.attachMedia(video);
         hls.on(Hls.Events.MANIFEST_PARSED,function() {
             video.play();
